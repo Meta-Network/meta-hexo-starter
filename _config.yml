@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Meta Space Starter
+title: Meta Space
 subtitle: ""
 description: ""
 keywords: MetaSpace
-author: ""
-language: ""
+author: "Meta Network"
+language: "en"
 timezone: ""
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ""
+theme: inside
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

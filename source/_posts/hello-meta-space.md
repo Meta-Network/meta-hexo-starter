@@ -1,5 +1,11 @@
 ---
 title: Hello Meta Space
+date: 2021-09-07 00:00:00
+tags:
+  - Meta Space
+categories:
+  - Demo
+  - Generated
 ---
 
 Welcome to Meta Space!

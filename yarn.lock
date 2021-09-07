@@ -452,6 +452,11 @@ entities@^2.0.0:
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==
 
+entities@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
+  integrity sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -591,6 +596,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+he@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
+  integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
 hexo-cli@^4.0.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-4.3.0.tgz#4bb2bf11a30fae601f2f53ac0cb833fee3187649"
@@ -661,14 +671,6 @@ hexo-generator-restful@^0.2.3:
   dependencies:
     hexo-pagination "^0.1.0"
     lodash.pick "^4.4.0"
-
-hexo-generator-search@^2.4.2:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz#c4f35c8b8429355612dd1cdf5a18de3568166f99"
-  integrity sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==
-  dependencies:
-    nunjucks "^3.0.1"
-    utils-merge "^1.0.0"
 
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
@@ -742,6 +744,15 @@ hexo-server@^2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
+hexo-theme-inside@^2.7.0:
+  version "2.7.0-beta.11"
+  resolved "https://registry.yarnpkg.com/hexo-theme-inside/-/hexo-theme-inside-2.7.0-beta.11.tgz#0442a1c80737a9994ea0f36fa49c9c56e529dd2c"
+  integrity sha512-GeYpm8ijG1TkpmoVo/Z2LSTFZOZYGV/KV7YW9ifyHjWRq9RptRsAuketse/fI/UjP/Qpo/QXzR/7Hn4RPYJp0A==
+  dependencies:
+    html-to-text "7.0.0"
+    markdown-it "12.0.4"
+    markdown-it-container "3.0.0"
+
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"
@@ -795,6 +806,16 @@ html-encoding-sniffer@^2.0.1:
   integrity sha512-D5JbOMBIR/TVZkubHT+OyT2705QvogUW4IBn6nHd756OwieSF9aDYFj4dv6HHEVGYbHaLETa3WggZYWWMyy3ZQ==
   dependencies:
     whatwg-encoding "^1.0.5"
+
+html-to-text@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/html-to-text/-/html-to-text-7.0.0.tgz#97ff0bcf34241c282f78f5c1baa05dfa44d9d3c3"
+  integrity sha512-UR/WMSHRN8m+L7qQUhbSoxylwBovNPS+xURn/pHeJvbnemhyMiuPYBTBGqB6s8ajAARN5jzKfF0d3CY86VANpA==
+  dependencies:
+    deepmerge "^4.2.2"
+    he "^1.2.0"
+    htmlparser2 "^6.0.0"
+    minimist "^1.2.5"
 
 htmlparser2@^6.0.0:
   version "6.1.0"
@@ -973,6 +994,13 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+linkify-it@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-3.0.2.tgz#f55eeb8bc1d3ae754049e124ab3bb56d97797fb8"
+  integrity sha512-gDBO4aHNZS6coiZCKVhSNh43F9ioIL4JwRjLZPkoLIY4yZFwg264Y5lu2x6rb1Js42Gh6Yqm2f6L2AJcnkzinQ==
+  dependencies:
+    uc.micro "^1.0.1"
+
 lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
@@ -990,10 +1018,31 @@ lower-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
+markdown-it-container@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-container/-/markdown-it-container-3.0.0.tgz#1d19b06040a020f9a827577bb7dbf67aa5de9a5b"
+  integrity sha512-y6oKTq4BB9OQuY/KLfk/O3ysFhB3IMYoIWhGJEidXt1NQFocFK2sA2t0NYZAMyMShAGL6x5OPIbrmXPIqaN9rw==
+
+markdown-it@12.0.4:
+  version "12.0.4"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.4.tgz#eec8247d296327eac3ba9746bdeec9cfcc751e33"
+  integrity sha512-34RwOXZT8kyuOJy25oJNJoulO8L0bTHYWXcdZBYZqFnjIy3NgjeoM3FmPXIOFQ26/lSHYMr8oc62B6adxXcb3Q==
+  dependencies:
+    argparse "^2.0.1"
+    entities "~2.1.0"
+    linkify-it "^3.0.1"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 marked@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/marked/-/marked-2.1.3.tgz#bd017cef6431724fd4b27e0657f5ceb14bff3753"
   integrity sha512-/Q+7MGzaETqifOMWYEA7HVMaZb4XbcRfaOzcSsHZEith83KGlvaSG33u0SKu89Mj5h+T8V2hM+8O45Qc5XTgwA==
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+  integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 micromatch@^4.0.2:
   version "4.0.4"
@@ -1117,7 +1166,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nunjucks@^3.0.0, nunjucks@^3.0.1, nunjucks@^3.2.1:
+nunjucks@^3.0.0, nunjucks@^3.2.1:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.2.3.tgz#1b33615247290e94e28263b5d855ece765648a31"
   integrity sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==
@@ -1511,6 +1560,11 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
+  integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
+
 universalify@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
@@ -1526,7 +1580,7 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-utils-merge@1.0.1, utils-merge@^1.0.0:
+utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
