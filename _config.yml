@@ -3,13 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Meta Space Starter
+title: Meta Space
 subtitle: ""
 description: ""
 keywords: MetaSpace
-author: ""
-language: ""
+author: Meta Network
+language:
+  - zh-CN
+  - en
+  - zh-TW
 timezone: ""
+avatar: https://ipfs.fleek.co/ipfs/bafybeiccss3figrixd5qhhv6i6zhbz5chmyls6ja5kscu6drg7fnjcnxgm
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

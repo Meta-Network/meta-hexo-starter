@@ -1,0 +1,8 @@
+# welcome
+welcome:
+  layout: markdown
+  title: Links
+  content:
+    - "[Hexo](https://hexo.io)"
+    - "[Stellar](https://github.com/xaoxuu/hexo-theme-stellar/)"
+    - "[Meta Network](https://meta-network.mttk.net)"
