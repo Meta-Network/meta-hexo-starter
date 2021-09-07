@@ -8,4 +8,6 @@ links:
   MetaNetwork:
     url: https://meta-network.mttk.net
 about:
-  description: description
+  description: designed by theme-kaze
+  social_links:
+    - { icon: "icon-github", link: "https://github.com/Meta-Network" }
