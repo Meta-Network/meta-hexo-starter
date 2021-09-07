@@ -23,6 +23,6 @@
     "hexo-renderer-marked": "^4.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-stellar": "^1.5.1"
+    "hexo-theme-kaze": "^1.0.5"
   }
 }
