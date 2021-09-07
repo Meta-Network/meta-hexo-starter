@@ -1,4 +1,5 @@
 version: 4.0.0
+variant: cyberpunk
 head:
   rss: /atom.xml
 search:
