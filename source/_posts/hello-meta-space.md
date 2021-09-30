@@ -15,3 +15,11 @@ Welcome to Meta Space!
 ### Create a new post
 
 WIP
+
+### IPFS image sample
+
+```markdown
+![Preview](ipfs://bafybeihexrxbqtornhbggcyzhvrveudnvezjksgptypouxgxs5hbgrwgtu)
+```
+
+![Preview](ipfs://bafybeihexrxbqtornhbggcyzhvrveudnvezjksgptypouxgxs5hbgrwgtu)
