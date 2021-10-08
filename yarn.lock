@@ -1754,6 +1754,11 @@ hexo-theme-icarus@^4.4.0:
     moment "^2.22.2"
     semver ">=5.0.0"
 
+hexo-theme-keep@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-3.4.3.tgz#0cd223cf520e557da5cc6c0922d78f78d321096f"
+  integrity sha512-XOaoCsApY1sWFnrEnYHTIyWEC4go1BJG5yt7odKkvPQt0MkL/PCM5A+XZSsLmcWdYTavkFt2Apvtgvd1pLzYlg==
+
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"

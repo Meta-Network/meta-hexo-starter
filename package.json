@@ -25,6 +25,7 @@
     "hexo-renderer-markdown-it": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-icarus": "^4.4.0"
+    "hexo-theme-icarus": "^4.4.0",
+    "hexo-theme-keep": "^3.4.3"
   }
 }
