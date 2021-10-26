@@ -1,0 +1,14 @@
+author:
+  enable: true
+  # 侧边栏头像
+  avatar:
+    # 填写图片路径或链接
+    url: https://xxxxx.png
+    # 是否显示为圆形
+    rounded: true
+    # 头像透明度（取值：0 ~ 1）
+    opacity: 1
+    # 鼠标经过时的动画，可选值：turn 或 shake
+    animation: turn
+  # 格言（可以是任意一句想写的话）
+  motto: hello world
