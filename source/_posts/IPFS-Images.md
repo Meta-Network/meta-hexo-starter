@@ -2,12 +2,14 @@
 title: IPFS Images
 date: 2021-10-09 14:52:55
 tags:
+categories:
+  - Generated
 ---
 
-IPFS Images test md
-
-<!-- ipfs fleek -->
-![](https://ipfs.fleek.co/ipfs/bafybeih5r5pyi6kkglocngk4hqidvjudhe3ufznehc2ighaiwjst4ne66q)
+```markdown
+![](ipfs://QmQxQ2jNCjBVebYd94yoxVd9mKd5aUPLd1LGEFn9MgS4kk)
+```
 
 <!-- ipfs -->
-![](ipfs://bafybeih5r5pyi6kkglocngk4hqidvjudhe3ufznehc2ighaiwjst4ne66q)
+
+![](ipfs://QmQxQ2jNCjBVebYd94yoxVd9mKd5aUPLd1LGEFn9MgS4kk)

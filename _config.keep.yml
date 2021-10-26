@@ -1,0 +1,10 @@
+base_info:
+  title: Meta Space Starter
+  author: Meta Network
+  url: http://localhost:4000
+style:
+  avatar: https://ipfs.fleek.co/ipfs/bafybeiccss3figrixd5qhhv6i6zhbz5chmyls6ja5kscu6drg7fnjcnxgm
+  favicon: https://ipfs.fleek.co/ipfs/bafybeidyi56ytz2gkossffp43ls4flx7u3ijd75kovdi5kyohoazhwebv4
+  first_screen:
+    enable: true
+    description: Meta Network combines several Web3 technologies to create a community-driven creators network.
