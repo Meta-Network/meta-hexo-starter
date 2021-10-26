@@ -1,0 +1,39 @@
+# create a "_config.lyusha.yml" file in the root directory
+# and add the following content to this file
+
+# base
+avatar: https://api.prodless.com/avatar.png
+index_text: 'Lyusha Hexo Theme'
+description: 'A simple, elegant and focused card style Hexo theme'
+language: zh-CN
+footer_author_link: https://github.com/Qyir/
+
+# links
+# https://simpleicons.org/
+links:
+  - name: email
+    url: voyoaugi@gmail.com
+  - name: github
+    url: https://github.com/Qyir/
+  - name: twitter
+    url: https://twitter.com/QoQyir
+  - name: bilibili
+    url: https://space.bilibili.com/89553968
+  # - name: instagram
+  #   url:
+  # - name: telegram
+  #   url:
+  # - name: zhihu
+  #   url:
+  # - name: sinaweibo
+  #   url:
+  ## other social links
+  # - name:
+  #   url:
+  #   icon:
+
+# about the "latest" mark
+post_latest: true
+
+# path of posts collection folder and posts list page
+articles_folder: ''

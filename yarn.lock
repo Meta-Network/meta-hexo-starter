@@ -534,6 +534,15 @@ hexo-cli@^4.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
+hexo-filter-meta-space@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-filter-meta-space/-/hexo-filter-meta-space-0.0.2.tgz#6e63c4737ffb36c900d2091102d6c63c3a47aaa0"
+  integrity sha512-bXaPmwo8isfGTj4RyfjCOxL180L0V12mYadJciENLxdiKeQ8j37JxVrxXgCEVDWqre3f4Gt7L/iL9dRVCvE/8g==
+  dependencies:
+    hexo-fs "^3.1.0"
+    hexo-util "^2.4.0"
+    picocolors "^1.0.0"
+
 hexo-front-matter@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-2.0.0.tgz"
@@ -1163,6 +1172,11 @@ picocolors@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-0.2.1.tgz"
   integrity sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==
+
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/picocolors/download/picocolors-1.0.0.tgz?cache=0&sync_timestamp=1634093339035&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpicocolors%2Fdownload%2Fpicocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
