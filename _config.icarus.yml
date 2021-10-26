@@ -44,11 +44,11 @@ widgets:
     # 作者头衔
     author_title: A GitHub Octocat
     # 作者所在地/公司
-    location: GitHub Inc.
+    # location: GitHub Inc.
     # 头像图片地址
     avatar: https://octodex.github.com/images/hula_loop_octodex03.gif
     # 是否显示圆形头像
-    avatar_rounded: false
+    avatar_rounded: true
     # Gravatar邮箱(如不设置`avatar`项)
     gravatar:
     # 关注按钮链接地址
