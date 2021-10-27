@@ -17,7 +17,7 @@ WIP
 ### IPFS image sample
 
 ```markdown
-![Preview](ipfs://bafybeibygmxxa5vprbshxj2r56e4ryq2qf4implckizwza4adsbxwhwahe)
+![Preview](ipfs://QmQxQ2jNCjBVebYd94yoxVd9mKd5aUPLd1LGEFn9MgS4kk)
 ```
 
-![Preview](ipfs://bafybeibygmxxa5vprbshxj2r56e4ryq2qf4implckizwza4adsbxwhwahe)
+![Preview](ipfs://QmQxQ2jNCjBVebYd94yoxVd9mKd5aUPLd1LGEFn9MgS4kk)
