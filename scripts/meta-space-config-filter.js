@@ -22,7 +22,7 @@ hexo.extend.filter.register('after_init', async function () {
       about: {
         subtitle: site.subtitle,
         avatar: site.avatar,
-        name: user.nickname,
+        name: user.nickname || user.username || site.author,
         intro: site.description,
       },
     }
