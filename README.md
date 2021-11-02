@@ -36,8 +36,6 @@ We accept themes that meet the following criteria.
 
 If you want to contribute a template for a theme that is not published to NPM.js, you can first publish it (if you created it) to NPM.js or contribute it to [our meta-hexo-starter-custom repo](https://github.com/Meta-Network/meta-hexo-starter-custom).
 
-We welcome any PR or issue, please see our [contributing document](https://hexo.io/docs/contributing).
+We welcome any PR or issue, please see our [contributing document](https://github.com/Meta-Network/meta-hexo-starter/blob/main/CONTRIBUTING.md).
 
 You could leave a comment if you want to resolve an issue.
-
-
