@@ -25,6 +25,7 @@
     "hexo-renderer-markdown-it": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-aurora": "^1.5.5"
+    "hexo-theme-aurora": "^1.5.5",
+    "markdown-it-plantuml": "^1.4.1"
   }
 }
