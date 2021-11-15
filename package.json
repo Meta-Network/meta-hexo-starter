@@ -26,6 +26,7 @@
     "hexo-renderer-pug": "^2.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-stun": "^2.6.2"
+    "hexo-theme-stun": "^2.6.2",
+    "markdown-it-plantuml": "^1.4.1"
   }
 }
