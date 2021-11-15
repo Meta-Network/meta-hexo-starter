@@ -133,3 +133,7 @@ restful:
   use_tag_slug: false # Use slug for filename of tag data
   post: true
   pages: false
+
+markdown:
+  plugins:
+    - markdown-it-plantuml
