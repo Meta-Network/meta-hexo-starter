@@ -1,16 +1,17 @@
 version: 4.0.0
 head:
   rss: /atom.xml
+
 search:
   type: insight
 navbar:
   # 导航栏菜单项
   menu:
-    Home: /
-    Archives: /archives
-    Categories: /categories
-    Tags: /tags
-    About: /about
+    # Home: /
+    # Archives: /archives
+    # Categories: /categories
+    # Tags: /tags
+    # About: /about
 # Article related configurations
 article:
   # Code highlight settings
@@ -23,7 +24,7 @@ article:
     # Default folding status of the code blocks. Can be "", "folded", "unfolded"
     fold: unfolded
   # Whether to show estimated article reading time
-  readtime: true
+  readtime: false
   # Article licensing block
   licenses:
     Creative Commons:
@@ -51,32 +52,32 @@ widgets:
     # Gravatar邮箱(如不设置`avatar`项)
     gravatar:
     # 关注按钮链接地址
-    follow_link: "https://octodex.github.com/hulatocat"
+    follow_link: "https://metanetwork.online"
     # 社交媒体链接
-    social_links:
-      Github:
-        icon: fab fa-github
-        url: "https://github.com/"
-      Icarus: "https://github.com/ppoffice/hexo-theme-icarus"
-  - type: toc
-    position: left
-    # 是否显示目录项目的序号
-    index: true
-  - position: left
-    type: links
-    # 友站名称与链接
-    links:
-      Hexo: "https://hexo.io"
-      Bulma: "https://bulma.io"
-      MetaNetwork: "https://meta-network.mttk.net"
-  - position: right
-    type: recent_posts
+    # social_links:
+    #   Github:
+    #     icon: fab fa-github
+    #     url: "https://github.com/"
+    #   Icarus: "https://github.com/ppoffice/hexo-theme-icarus"
+  # - type: toc
+  #   position: left
+  #   # 是否显示目录项目的序号
+  #   index: true
+  # - position: left
+  #   type: links
+  #   # 友站名称与链接
+  #   links:
+  #     Hexo: "https://hexo.io"
+  #     Bulma: "https://bulma.io"
+  #     MetaNetwork: "https://meta-network.mttk.net"
   # - position: right
-  #   type: archives
-  - position: right
-    type: tags
-  - position: right
-    type: categories
+  #   type: recent_posts
+  # # - position: right
+  # #   type: archives
+  # - position: right
+  #   type: tags
+  # - position: right
+  #   type: categories
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
